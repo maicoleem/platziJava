@@ -14,5 +14,7 @@ public class Variables {
         System.out.println(employedName);
         employedName += " Escobar";
         System.out.println(employedName);
+        var alberto ="alberto";
+        System.out.println(alberto);
     }
 }
