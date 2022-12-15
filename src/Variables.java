@@ -16,5 +16,16 @@ public class Variables {
         System.out.println(employedName);
         var alberto ="alberto";
         System.out.println(alberto);
+
+        //operadores de incremento
+        int lifes = 5;
+            //prefija
+        int attempt = 15 + ++lifes;
+        System.out.println("intentos: "+ attempt +" Vidas: "+ lifes);
+            //posfija
+        lifes = 5;
+        int failures = 2 + lifes++;
+        System.out.println("fallos: "+ failures + " Vidas: "+ lifes);
+
     }
 }
